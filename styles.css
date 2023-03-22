@@ -1,3 +1,9 @@
+.odin-header{
+   text-align: center;
+   font-size: 3rem;
+   margin: 2rem;
+}
+
 a{
     display: block;
     color: black;
@@ -5,5 +11,18 @@ a{
 }
 
 img{
-    max-width: 80%;
+    width: 25vw;
+    height: 60vh;
 }
+
+.recipes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recipes p{
+    text-align: center;
+}
+
+
